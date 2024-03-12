@@ -41,6 +41,22 @@ public class DirectoryApp {
                     directory.addEntry(newEntry);
                     System.out.println("Entry added successfully.");
                     break;
+
                 case 2:
+                    System.out.print("Enter Address: ");
+                    String address1 = scanner.nextLine();
+
+                    System.out.print("Enter Telephone Number: ");
+                    String telephoneNumber1 = scanner.nextLine();
+
+                    System.out.print("Enter Mobile Number: ");
+                    String mobileNumber1 = scanner.nextLine();
+
+                    System.out.print("Enter Unique ID: ");
+                    String uniqueID1 = scanner.nextLine();
 
 
+            }
+        }
+    }
+}
